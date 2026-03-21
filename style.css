@@ -22,6 +22,8 @@ body {
 
 #navBar{
     background-color: #201914;
+    padding: 15px;
+    backdrop-filter: blur(10px); 
 }
 
 #banner {
@@ -29,7 +31,10 @@ body {
 
 }
 #title {
-    color: #EA8E09;
+    color: #ffb651;
     font-family: "DarkBook";
     font-size: 100px;
+    text-shadow: 0 0 40px #ac6400;
+    text-align: center; 
 }
+
