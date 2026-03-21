@@ -26,6 +26,7 @@ body {
     background-color: #201914;
     padding: 15px;
     backdrop-filter: blur(10px); 
+    
 }
 i {
     color:#ffa11c;
@@ -52,6 +53,8 @@ i {
     padding: 5px;
     border-radius: 10px;
     text-decoration: none;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 #search {
