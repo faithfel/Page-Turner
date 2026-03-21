@@ -1,3 +1,5 @@
+@import url('https://cdn-uicons.flaticon.com/4.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+
 @font-face {
   font-family: 'BookEnds'; 
   src: url('./src/Book+Ends.ttf');
@@ -25,7 +27,10 @@ body {
     padding: 15px;
     backdrop-filter: blur(10px); 
 }
-
+i {
+    color:#ffa11c;
+    size: 70px;
+}
 #banner {
     size: 50%;
 
@@ -40,7 +45,11 @@ body {
 
 #navtitle {
     font-family: 'DarkBook';
-    color: #ac6400;
+    color: #ffa11c;
+    background-color: #ac640042;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 #search {
@@ -59,4 +68,8 @@ body {
     filter: drop-shadow(0 0 20px rgba(255, 182, 81, 1)); 
     -webkit-filter: drop-shadow(0 0 20px rgba(255, 182, 81, 1));
     transition: filter 0.3s ease-in-out; /* Smooth transition */
+}
+
+input {
+    border-radius: 2px;
 }
