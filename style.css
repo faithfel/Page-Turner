@@ -191,3 +191,17 @@ hr {
 }
 
 
+
+
+#pilebookright {
+    transform: scaleX(-1);
+
+}
+
+#pilegroup{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    position: absolute;
+}
