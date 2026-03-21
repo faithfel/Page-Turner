@@ -1,3 +1,6 @@
+
+
+
 @import url('https://cdn-uicons.flaticon.com/4.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
 
 @font-face {
@@ -36,7 +39,6 @@ i {
     size: 50%;
     width: 100vw;
     height: 100vh;
-
 }
 #title {
     color: #ffb651;
@@ -64,6 +66,8 @@ i {
 #glowing-image {
     filter: drop-shadow(0 0 10px rgba(rgb(255, 182, 81))); 
     -webkit-filter: drop-shadow(0 0 10px rgba(255, 182, 81, 0.7));
+
+    
 }
 
 /* Add a hover effect for a dynamic glow */
@@ -81,4 +85,9 @@ input {
     width: 500px;
     float: right;
     
+}
+
+img {
+    z-index: 2;
+    position: relative;
 }
