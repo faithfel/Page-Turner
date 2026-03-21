@@ -66,7 +66,7 @@ i {
     position: relative;
     z-index: -2;
 }
-#title {
+.title {
     color: #ffb651;
     font-family: "Antistar";
     font-size: 200px;
@@ -184,3 +184,5 @@ hr {
     -webkit-filter: drop-shadow(0 0 10px rgb(254, 143, 58));
 
 }
+
+
