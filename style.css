@@ -83,7 +83,11 @@ i {
     margin-right: 5px;
     margin-left: 5px;
 }
+#navtitle:hover {
+    background-color: #feb247;
+    color:#be7800; ;
 
+}
 #search {
     align-items: right;
 
@@ -99,7 +103,7 @@ i {
 }
 
 #glowing-image:hover {
-    filter: drop-shadow(0 0 30px rgba(255, 182, 81, 1)); 
+    filter: drop-shadow(0 0 10px rgba(255, 182, 81, 1)); 
     -webkit-filter: drop-shadow(0 0 30px rgb(254, 143, 58));
     transition: filter 0.5s ease-in-out;
     
@@ -119,15 +123,16 @@ input {
     height: 300px
 }
 .lanternright {
-    height: 300px
+    height: 300px;
+    
 }
 
 #lantergrp{
     z-index: 10;
     position: absolute;
-    display: grid;
-    align-self: flex-end;
-    height: 300px
+    display:block;
+    height: 300px;
+
 }
 
 
@@ -151,6 +156,7 @@ hr {
     border-radius: 10px;
     margin-right: 150px;
     margin-left: 150px;
+    padding: 10px;
 }
 
 #desc {
@@ -158,5 +164,17 @@ hr {
     font-family: 'DarkBook', Courier, monospace;
     text-align: center;
 
+
+}
+
+#browse {
+    color: #ffc97e;
+    font-family: 'DarkBook', Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+
+
+    filter: drop-shadow(0 0 30px rgba(255, 182, 81, 1)); 
+    -webkit-filter: drop-shadow(0 0 10px rgb(254, 143, 58));
 
 }
