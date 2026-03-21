@@ -6,8 +6,14 @@
 
 @font-face {
   font-family: 'Sketch'; 
-  src: url('./src/Book+Ends.ttf');
-  font-weight: normal;
+  src: url('./src/Sketchbook\ Paper.ttf');
+
+}
+
+@font-face {
+  font-family: 'DarkBook'; 
+  src: url('./src/DarkBookDemoRegular.ttf');
+
 }
 
 body {
@@ -24,6 +30,6 @@ body {
 }
 #title {
     color: #EA8E09;
-    font-family: "BookEnds";
+    font-family: "DarkBook";
     font-size: 100px;
 }
