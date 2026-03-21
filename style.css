@@ -59,9 +59,7 @@ i {
 }
 
 #glowing-image {
-    /* Horizontal offset | Vertical offset | Blur radius | Color */
     filter: drop-shadow(0 0 10px rgba(rgb(255, 182, 81))); 
-    /* For compatibility with older browsers, consider adding -webkit- prefix */
     -webkit-filter: drop-shadow(0 0 10px rgba(255, 182, 81, 0.7));
 }
 
@@ -69,12 +67,15 @@ i {
 #glowing-image:hover {
     filter: drop-shadow(0 0 20px rgba(255, 182, 81, 1)); 
     -webkit-filter: drop-shadow(0 0 20px rgba(255, 182, 81, 1));
-    transition: filter 0.3s ease-in-out; /* Smooth transition */
+    transition: filter 0.3s ease-in-out;
 }
 
 input {
     border-radius: 5px;
     text-align: right;
     background-color: #ac640064;
+    color: #ffc97e;
+    width: 500px;
+    float: right;
     
 }
