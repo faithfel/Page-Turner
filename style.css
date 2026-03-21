@@ -31,7 +31,13 @@
 body {
     background-color: #0C0A09;
     background-image: url('');
+
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 
 #navBar{
     background-color: #201914;
