@@ -71,5 +71,8 @@ i {
 }
 
 input {
-    border-radius: 2px;
+    border-radius: 5px;
+    text-align: right;
+    background-color: #ac640064;
+    
 }
