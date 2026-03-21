@@ -38,3 +38,25 @@ body {
     text-align: center; 
 }
 
+#navtitle {
+    font-family: 'DarkBook';
+    color: #ac6400;
+}
+
+#search {
+    align-items: right;
+}
+
+#glowing-image {
+    /* Horizontal offset | Vertical offset | Blur radius | Color */
+    filter: drop-shadow(0 0 10px rgba(rgb(255, 182, 81))); 
+    /* For compatibility with older browsers, consider adding -webkit- prefix */
+    -webkit-filter: drop-shadow(0 0 10px rgba(255, 182, 81, 0.7));
+}
+
+/* Add a hover effect for a dynamic glow */
+#glowing-image:hover {
+    filter: drop-shadow(0 0 20px rgba(255, 182, 81, 1)); 
+    -webkit-filter: drop-shadow(0 0 20px rgba(255, 182, 81, 1));
+    transition: filter 0.3s ease-in-out; /* Smooth transition */
+}
