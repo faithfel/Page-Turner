@@ -64,7 +64,7 @@ i {
     position: relative;
     z-index: -2;
 }
-.title {
+#title {
     color: #ffb651;
     font-family: "Antistar";
     font-size: 200px;
@@ -123,10 +123,10 @@ input {
     
 }
 
-.lantern {
+#lantern {
     height: 300px
 }
-.lanternright {
+#lanternright {
     height: 300px;
     
 }
