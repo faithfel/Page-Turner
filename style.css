@@ -39,13 +39,26 @@ i {
     size: 50%;
     width: 100vw;
     height: 100vh;
+    position: absolute;
+    
+
+}
+#bannerblur {
+    size: 50%;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(65px);
+    position: relative;
+    z-index: -1;
 }
 #title {
     color: #ffb651;
     font-family: "DarkBook";
     font-size: 100px;
     text-shadow: 0 0 40px #ac6400;
-    text-align: center; 
+    margin-left: 150px;
+
+    
 }
 
 #navtitle {
@@ -88,14 +101,17 @@ input {
 }
 
 .lantern {
-   position: absolute; 
+   position: absolute;
     z-index: 10;
     height: 350px;
+
 }
 
-.lanternright {
-   position: absolute; 
+.lanternright { 
+    position: relative; 
     z-index: 10;
-    height: 300px;
+    height: 240px;
     float: right;
+
 }
+
