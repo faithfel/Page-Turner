@@ -109,7 +109,7 @@ i {
 
 .glowing-image:hover {
     filter: drop-shadow(0 0 10px rgba(255, 182, 81, 1)); 
-    -webkit-filter: drop-shadow(0 0 30px rgb(254, 143, 58));
+    -webkit-filter: drop-shadow(0 0 30px rgb(255, 171, 106));
     transition: filter 0.5s ease-in-out;
     
 }
@@ -171,7 +171,7 @@ hr {
 
 #desc {
     color: #ffa11c;
-    font-family: 'DarkBook', Courier, monospace;
+    font-family:  Courier, monospace;
     text-align: center;
 
 
