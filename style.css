@@ -151,6 +151,11 @@ input {
     margin-left: 5px;
 }
 
+#cart {
+    float: right;
+    margin-left: 5px;
+}
+
 hr {
     color: #ffa11c;
     background-color: #ffa11c;
@@ -223,6 +228,7 @@ hr {
 }
 
 #genre {
-    font-family: 'DarkBook';
+    font-family:'DarkBook', 'Arial Narrow', Arial, sans-serif ;
     color: #ffa11c;
+    border-radius: 4px;
 }
