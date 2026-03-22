@@ -65,9 +65,9 @@ i {
     font-family: "Antistar";
     font-size: 150px;
     text-shadow: 0 0 40px #ac6400;
-    z-index: 20;
+    z-index: 10;
     position: absolute;
-    transform: translate(50%, 0);
+
 
 
     
@@ -123,8 +123,8 @@ input {
 }
 
 .lanternright { 
-    position: relative; 
-    z-index: 10;
+    position: absolute; 
+    z-index:10;
     height: 240px;
     float: right;
 
@@ -141,4 +141,14 @@ input {
 #searchglass {
     float: right;
     margin-left: 5px;
+}
+
+hr {
+    color: #ffa11c;
+    background-color: #ffa11c;
+    height: 3px;
+    border: none;
+    margin-bottom: -2px;
+
+
 }
