@@ -21,6 +21,13 @@
 
 }
 
+@font-face {
+  font-family: 'Antistar'; 
+  src: url('./src/Antistar\ Personal\ Use\ Only.ttf');
+}
+
+
+
 body {
     background-color: #0C0A09;
     background-image: url('');
@@ -41,6 +48,7 @@ i {
     width: 100vw;
     height: 100vh;
     position: absolute;
+    z-index: -1;
     
 
 }
@@ -50,11 +58,11 @@ i {
     height: 100vh;
     filter: blur(50px);
     position: relative;
-    z-index: -1;
+    z-index: -2;
 }
 #title {
     color: #ffb651;
-    font-family: "DarkBook";
+    font-family: "Antistar";
     font-size: 100px;
     text-shadow: 0 0 40px #ac6400;
     margin-left: 200px;
@@ -108,6 +116,7 @@ input {
    position: absolute;
     z-index: 10;
     height: 350px;
+    float: inline-start;
 
 }
 
