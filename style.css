@@ -100,14 +100,14 @@ i {
 }
 
 
-#glowing-image {
+.glowing-image {
     filter: drop-shadow(0 0 10px rgba(rgb(255, 200, 124))); 
     -webkit-filter: drop-shadow(0 0 10px rgba(255, 156, 81, 0.7));
     transition: filter 0.5s ease-in-out;
     
 }
 
-#glowing-image:hover {
+.glowing-image:hover {
     filter: drop-shadow(0 0 10px rgba(255, 182, 81, 1)); 
     -webkit-filter: drop-shadow(0 0 30px rgb(254, 143, 58));
     transition: filter 0.5s ease-in-out;
