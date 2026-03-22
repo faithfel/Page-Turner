@@ -68,6 +68,7 @@ i {
     z-index: 10;
     position: absolute;
     margin-left: 25vw;
+    margin-right: 5vw;
 
 
 
@@ -87,6 +88,7 @@ i {
 
 #search {
     align-items: right;
+
 
 }
 
@@ -110,32 +112,35 @@ input {
     text-align: right;
     background-color: #ac640064;
     color: #ffc97e;
-    width: 500px;
+    width: 40%;
     float: right;
     
 }
 
 .lantern {
-   position: absolute;
-    z-index: 10;
     height: 350px;
     float: inline-start;
 
 }
 
 .lanternright { 
-    position: absolute; 
-    z-index:10;
+    
     height: 240px;
-    float: right;
+
 
 }
 
+
+.lantergrp{
+    display: flexbox;
+    z-index: 10;
+    position: absolute;
+}
 #desc {
     color: #ffa11c;
     font-family: 'DarkBook', Courier, monospace;
     text-align: center;
-    margin: 40px;
+    margin: 60px;
 
 }
 
