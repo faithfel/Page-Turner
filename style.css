@@ -63,10 +63,12 @@ i {
 #title {
     color: #ffb651;
     font-family: "Antistar";
-    font-size: 100px;
+    font-size: 150px;
     text-shadow: 0 0 40px #ac6400;
-    margin-left: 200px;
-    margin-top: 50px;
+    z-index: 20;
+    position: absolute;
+    transform: translate(50%, 0);
+
 
     
 }
