@@ -205,6 +205,20 @@ hr {
     position: absolute;
 }
 
-/* PRODUCTS CSS STUFF 
+/* PRODUCTS CSS STUFF */
+
+#bookcover {
+    height: 200px;
+    border-radius: 4px;
+}
 
 
+#bookcover:hover{
+
+    transition: 1s;
+}
+
+#genre {
+    font-family: 'DarkBook';
+    color: #ffa11c;
+}
