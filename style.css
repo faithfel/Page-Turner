@@ -67,8 +67,8 @@ i {
     text-shadow: 0 0 40px #ac6400;
     z-index: 10;
     position:absolute;
-    width: 400px;  
-    height: 400px; 
+    width: 1000px;  
+    height: 200px; 
     inset: 0;    
     margin: auto; 
 }
@@ -126,7 +126,7 @@ input {
     z-index: 10;
     position: absolute;
     display: grid;
-    justify-content:space-around;
+    align-self: flex-end;
     height: 300px
 }
 
