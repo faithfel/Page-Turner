@@ -116,23 +116,18 @@ input {
 }
 
 .lantern {
-    height: 350px;
-    float: inline-start;
-
+    height: 300px
+}
+.lanternright {
+    height: 300px
 }
 
-.lanternright { 
-    
-    height: 240px;
-
-
-}
-
-
-.lantergrp{
-    display: flexbox;
+#lantergrp{
     z-index: 10;
     position: absolute;
+    display: grid;
+    justify-content:space-around;
+    height: 300px
 }
 
 
