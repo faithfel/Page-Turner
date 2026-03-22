@@ -63,16 +63,14 @@ i {
 #title {
     color: #ffb651;
     font-family: "Antistar";
-    font-size: 150px;
+    font-size: 200px;
     text-shadow: 0 0 40px #ac6400;
     z-index: 10;
-    position: absolute;
-    margin-left: 25vw;
-    margin-right: 5vw;
-
-
-
-    
+    position:absolute;
+    width: 400px;  
+    height: 400px; 
+    inset: 0;    
+    margin: auto; 
 }
 
 #navtitle {
@@ -136,13 +134,7 @@ input {
     z-index: 10;
     position: absolute;
 }
-#desc {
-    color: #ffa11c;
-    font-family: 'DarkBook', Courier, monospace;
-    text-align: center;
-    margin: 60px;
 
-}
 
 #searchglass {
     float: right;
@@ -155,6 +147,21 @@ hr {
     height: 3px;
     border: none;
     margin-bottom: -2px;
+
+
+}
+
+#ptext {
+    background-color: #7b48015c;
+    border-radius: 10px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+#desc {
+    color: #ffa11c;
+    font-family: 'DarkBook', Courier, monospace;
+    text-align: center;
 
 
 }
