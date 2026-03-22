@@ -205,6 +205,10 @@ hr {
     position: absolute;
 }
 
+#openbook {
+    height: 200px;
+}
+
 /* PRODUCTS CSS STUFF */
 
 #bookcover {
