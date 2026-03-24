@@ -219,7 +219,6 @@ hr {
 #bookcover {
     height: 400px;
     border-radius: 4px;
-    position: relative;
 
 }
 
@@ -234,9 +233,19 @@ hr {
 #productblock{
     background-color: #502f0249;
     width: 20%;
-    padding: 10px;
+    border-radius: 10px;
+    padding-left: 40px;
 }
 
+.text {
+    color: #feb247;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#booktitle {
+    font-family: Darkbook;
+    color: #feb247;
+}
 /*BLOG CSS :3 */
 
 #blog{
