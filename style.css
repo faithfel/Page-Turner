@@ -232,9 +232,13 @@ hr {
 
 #productblock{
     background-color: #502f0249;
-    width: 20%;
+    width: auto;
     border-radius: 10px;
-    padding-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: auto;
+    padding:auto;
+    max-width: fit-content;
 }
 
 .text {
@@ -246,8 +250,11 @@ hr {
     font-family: Darkbook;
     color: #feb247;
 }
+
+
+
 /*BLOG CSS :3 */
 
 #blog{
-    
+    width: 30%;
 }
