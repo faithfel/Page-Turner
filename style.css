@@ -25,7 +25,14 @@
   font-family: 'Antistar'; 
   src: url('./src/Antistar\ Personal\ Use\ Only.ttf');
 }
-
+@font-face {
+  font-family: 'Barber'; 
+  src: url('./src/BarberChop.otf');
+}
+@font-face {
+  font-family: 'Ruthela'; 
+  src: url('./src/Ruthela\ Font\ DEMO.ttf');
+}
 
 
 body {
@@ -95,6 +102,7 @@ i {
 }
 #search {
     align-items: right;
+    width: 30vw;
 
 
 }
@@ -264,9 +272,9 @@ hr {
 }
 
 #booktitle {
-    font-family: Darkbook;
+    font-family: Ruthela;
     color: #feb247;
-    font-size: 3-px;
+    font-size: 25px;
 }
 
 #price {
@@ -276,6 +284,8 @@ hr {
 
 /*BLOG CSS :3 */
 
-#blog{
-    width: 30%;
+#scrap{
+    width: 35%;
+    margin-left: 35%;
+    margin-right: 35%;
 }
