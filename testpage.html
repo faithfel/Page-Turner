@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__window {
+  position: relative;
+  background-color: white;
+  padding: 10px;
+  max-width: 70%;
+  max-height: 85%;
+  overflow: auto;
+}
+
+.modal__close {
+    top: 10;
+    float: right;
+    position: relative;
+
+}
+
+#modal:not(:target) {
+    visibility: hidden;
+    opacity: 0;
+}
+    </style>
+</head>
+<body>
+    <div class="open">
+  <a href="#modal">Open Modal</a>
+<div>
+<div id="modal">
+  <div class="modal__window">
+      <a class="modal__close" href="#">X</a>
+      <img id="bookcover" src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1546870952i/42036538.jpg">
+      <h2>Gideon The Ninth</h2>
+      <h3>by Tamsyn Muir</h3>   
+      <        
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, recusandae.
+      </p> 
+
+  </div>
+</div>
+
+
+
+</script>
+</body> 
+</html>
