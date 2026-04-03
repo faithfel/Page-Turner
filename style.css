@@ -288,3 +288,41 @@ hr {
     margin-left: 35%;
     margin-right: 35%;
 }
+
+
+
+/* MODALS IN PRODUCT */
+
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__window {
+  position: relative;
+  background-color: white;
+  padding: 10px;
+  max-width: 70%;
+  max-height: 85%;
+  overflow: auto;
+}
+
+.modal__close {
+    top: 20;
+    float: right;
+    margin: 5px;
+
+
+}
+
+#modal:not(:target) {
+    visibility: hidden;
+    opacity: 0;
+}
