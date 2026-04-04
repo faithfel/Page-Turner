@@ -261,7 +261,7 @@ hr {
 }
 
 #productblock:hover{
-    background-color: #3a2200;
+    background-color: #432800;
     transition: transform 0.3s ease;
     transform: scale(1.08); 
 
@@ -275,6 +275,7 @@ hr {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 #booktitle {
     font-family: Ruthela;
     color: #feb247;
@@ -285,6 +286,7 @@ hr {
     font-size: 25px;
 
 }
+
 
 /*BLOG CSS :3 */
 
