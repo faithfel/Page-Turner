@@ -5,62 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    #modal {
+        
+
+    .overlay {
     position: fixed;
     top: 0;
+    bottom: 0;
     left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.modal__window {
-  position: relative;
-  background-color: white;
-  padding: 10px;
-  max-width: 70%;
-  max-height: 85%;
-  overflow: auto;
-}
-
-.modal__close {
-    top: 20;
-    float: right;
-    margin: 5px;
-
-
-}
-
-#modal:not(:target) {
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
-}
+    }
+    .overlay:target {
+    visibility: visible;
+    opacity: 1;
+    }
+
+    .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    }
+
+    .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+    }
+    .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    }
+    .popup .close:hover {
+    color: #06D85F;
+    }
+    .popup .content {
+    max-height: 30%;
+    overflow: auto;
+    }
+
+    @media screen and (max-width: 700px){
+    .box{
+        width: 70%;
+    }
+    .popup{
+        width: 70%;
+    }
+    }
     </style>
 </head>
 <body>
-    <div class="open">
-        <a href="#modal">Open Modal</a>
-    <div>
-        
-<div id="modal">
-  <div class="modal__window">
-      <a class="modal__close" href="#">X</a>
-      <img id="bookcover" src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1546870952i/42036538.jpg">
-      <h2>Gideon The Ninth</h2>
-      <h3>by Tamsyn Muir</h3>
-      <h3>15.99</h3>   
-      <p> ★ ★ ★ ★ ☆</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, recusandae.
-      </p> 
 
-  </div>
+
+
+	<a class="button" href="#modal1">Let me Pop up</a>
+
+
+
+	<a class="button" href="#modal2">Let me Pop up 2</a>
+
+
+
+<div id="modal1" class="overlay">
+	<div class="popup">
+		<h2>Here i am</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			Thank to pop me out of that button, but now i'm done so you can close this window.
+		</div>
+	</div>
 </div>
 
-
-
-</script>
+<div id="modal2" class="overlay">
+	<div class="popup">
+		<h2>Here i am</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			@
+		</div>
+	</div>
+</div>
 </body> 
 </html>
