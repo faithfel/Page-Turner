@@ -89,10 +89,4 @@ successBtn.addEventListener("click", () => {
   });
 });
 
-errorBtn.addEventListener("click", () => {
-  notify.addNotification({
-    type: "error",
-    title: "Error!",
-    message: "Please try again!"
-  });
-});
+
