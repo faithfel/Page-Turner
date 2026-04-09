@@ -15,11 +15,11 @@ class Notification {
     if (this.type == "success") {
       icon = "fas fa-check";
       divClass = "success";
-      textColor = "#64963b";
+      textColor = "#ffffff";
     } else if (this.type == "error") {
       icon = "fas fa-times";
       divClass = "error";
-      textColor = "#963b3b";
+      textColor = "#ffffff";
     }
 
     let notificationContent = `
