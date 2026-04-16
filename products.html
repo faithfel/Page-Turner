@@ -7,7 +7,7 @@
     <title>PageTurner ❤︎</title>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    
+    <script src="script.js" defer></script>
 </head>
 <body>
         <div id="navBar">
@@ -434,14 +434,3 @@
 <button onclick="launch_toast()">Add to Cart</button>
 
 <div id="toast"><div id="img">Icon</div><div id="desc">Your Item has been Added to your Cart!</div></div>
-
-
-<script>
-
-function launch_toast() {
-    var x = document.getElementById("toast")
-    x.className = "show";
-    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 5000);
-}
-
-</script>
