@@ -428,8 +428,8 @@ hr {
 
 #toast.show {
     visibility: visible;
-    -webkit-animation: fadein 0.5s, expand 0.5s 0.5s,stay 3s 1s, shrink 0.5s 2s, fadeout 0.5s 2.5s;
-    animation: fadein 0.5s, expand 0.5s 0.5s,stay 3s 1s, shrink 0.5s 4s, fadeout 0.5s 4.5s;
+    -webkit-animation: fadein 0.5s, expand 0.5s 0.5s,stay 3s 1s, fadeout 0.5s 2.5s;
+
 }
 
 @-webkit-keyframes fadein {
@@ -444,29 +444,29 @@ hr {
 
 @-webkit-keyframes expand {
     from {min-width: 50px} 
-    to {min-width: 350px}
+    to {min-width: 480px}
 }
 
 @keyframes expand {
     from {min-width: 50px}
-    to {min-width: 350px}
+    to {min-width: 480px}
 }
 @-webkit-keyframes stay {
-    from {min-width: 350px} 
-    to {min-width: 350px}
+    from {min-width: 480px}
+    to {min-width: 480px}
 }
 
 @keyframes stay {
-    from {min-width: 350px}
-    to {min-width: 350px}
+    from {min-width: 480px}
+    to {min-width: 480px}
 }
 @-webkit-keyframes shrink {
-    from {min-width: 350px;} 
+    to {min-width: 480px}
     to {min-width: 50px;}
 }
 
 @keyframes shrink {
-    from {min-width: 350px;} 
+    to {min-width: 480px}
     to {min-width: 50px;}
 }
 
