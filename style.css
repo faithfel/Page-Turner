@@ -415,6 +415,13 @@ hr {
     background-color: #be7800;
     color: #fff;
 }
+
+
+.cartbutton{
+    background-color: #feb247;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 #toast #desc{
 
     
@@ -479,3 +486,4 @@ hr {
     from {bottom: 30px; opacity: 1;}
     to {bottom: 60px; opacity: 0;}
 }
+
