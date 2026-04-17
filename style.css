@@ -334,8 +334,8 @@ hr {
     }
 
     .popup h2 {
-    margin-top: 0;
-    color: #be7800;
+    margin-top: 10px;
+    color: #be7800; 
     font-family: Tahoma, Arial, sans-serif;
     }
     .popup .close {
@@ -376,9 +376,29 @@ hr {
         margin-right: auto;
         display: block; 
         max-height: 400px;
-        min-height: 100px;     
+        min-height: 100px;   
+          
     }
 
+    .heart {
+        color: #feb247;
+   
+    }
 
+    .modalcart{
+        
+    }
+    .buttonmodal {
+        display: flex;
+    }
+
+.descmodal{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.author{
+    color: #be7800;
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* pop ups */
 
