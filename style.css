@@ -322,7 +322,9 @@ hr {
         color: #be7800;
     }
     .popup {
-    margin: 70px auto;
+    margin-left: 35%;
+    margin-right: 35%;
+
     padding: 20px;
     background: #0c0a09b4;
     backdrop-filter: blur(10px);
@@ -333,8 +335,10 @@ hr {
     overflow: auto ;
     }
 
-    .popup h2 {
-    margin-top: 10px;
+
+
+    h2{
+    margin-top: 10px ;
     color: #be7800; 
     font-family: Tahoma, Arial, sans-serif;
     }
