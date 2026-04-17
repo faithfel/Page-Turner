@@ -352,7 +352,7 @@ hr {
     color: #feb247;
     }
     .popup .content {
-    max-height: 30%;
+    max-height:500px;
     overflow: auto;
     }
 
