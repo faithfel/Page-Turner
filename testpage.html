@@ -111,22 +111,15 @@
 </style>
 </head>
 <body>
- <button onclick="launch_toast()">Add to Cart</button>
+<div class="cartpopup">
+ <a  href="#addtocart">Add to Cart</a>
+</div>
 
-<button onclick="launch_toast()">Add to Cart</button>
-
-<div id="toast"><div id="img">Icon</div><div id="desc">Your Item has been Added to your Cart!</div></div>
-
+<div class="addtocart">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, voluptatum!</p>
+</div>
 
 
 </body> 
-<script>
 
-function launch_toast() {
-    var x = document.getElementById("toast")
-    x.className = "show";
-    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 5000);
-}
-
-</script>
 </html>
