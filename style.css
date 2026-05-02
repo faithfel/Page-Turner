@@ -50,7 +50,7 @@ a {
 
 
 #navBar{
-    background-color: #201914;
+    background-color: #0d0a08;
     padding: 15px;
     backdrop-filter: blur(10px); 
     
@@ -132,6 +132,7 @@ input {
     color: #ffc97e;
     width: 40%;
     float: right;
+    border-style: none;
     
 }
 
@@ -246,7 +247,7 @@ hr {
 }
 
 #productblock{
-    background-color: #502f0249;
+    background-color:#1b1207;
     width: auto;
     border-radius: 10px;
     padding: 20px;
@@ -321,7 +322,9 @@ hr {
         color: #be7800;
     }
     .popup {
-    margin: 70px auto;
+    margin-left: 35%;
+    margin-right: 35%;
+
     padding: 20px;
     background: #0c0a09b4;
     backdrop-filter: blur(10px);
@@ -332,9 +335,11 @@ hr {
     overflow: auto ;
     }
 
-    .popup h2 {
-    margin-top: 0;
-    color: #be7800;
+
+
+    h2{
+    margin-top: 10px ;
+    color: #be7800; 
     font-family: Tahoma, Arial, sans-serif;
     }
     .popup .close {
@@ -351,7 +356,7 @@ hr {
     color: #feb247;
     }
     .popup .content {
-    max-height: 30%;
+    max-height:500px;
     overflow: auto;
     }
 
@@ -375,126 +380,29 @@ hr {
         margin-right: auto;
         display: block; 
         max-height: 400px;
-        min-height: 100px;     
+        min-height: 100px;   
+          
     }
 
+    .heart {
+        color: #feb247;
+   
+    }
 
+    .modalcart{
+        
+    }
+    .buttonmodal {
+        display: flex;
+    }
+
+.descmodal{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.author{
+    color: #be7800;
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* pop ups */
 
- /* -------------------- buttons  --------------------*/
-.buttons__success {
-  width: 200px;
-  font-size: 16px;
-  padding: 8px;
-  margin: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-  border: none;
-  background: #ac6400;
-  color: #fff;
-  font-family: "Source Code Pro", monospace;
-}
-.buttons__success:hover {
-  background: #ffa322;
-  color: #fff;
-}
-
-@media (max-width: 600px) {
-  .banner__content,
-  .gettingstarted__content,
-  .usage__content {
-    min-width: 80%;
-    max-width: 100%;
-  }
-  .header,
-  .banner__img {
-    width: 100%;
-    text-align: center;
-  }
-  .usage__code {
-    width: 90%;
-  }
-  .usage__text {
-    width: 100%;
-    text-align: left;
-  }
-  .buttons__success {
-    display: block;
-  }
-}
-.notification-area {
-  position: fixed;
-  right: 10px;
-  top: 10px;
-  z-index: 100;
-}
-.notification {
-  height: 100px;
-  width: 330px;
-  position: relative;
-  background: #51320784;
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
-  margin-top: 20px;
-  -webkit-box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.75);
-}
-.notification__icon {
-  float: left;
-  height: 40px;
-  width: 50px;
-  position: relative;
-  top: 30px;
-  left: 15px;
-  font-size: 30px;
-  color: #ffffff;
-}
-.notification__exit-icon {
-  float: right;
-  height: 16px;
-  top: 10px;
-  right: 15px;
-  position: relative;
-  color: #ffffff;
-  cursor: pointer;
-}
-.notification__exit-icon:hover {
-  color: #ffffff;
-}
-.notification__content {
-  float: left;
-  height: 100px;
-  width: 230px;
-  margin: 0 7px;
-  position: relative;
-}
-.notification-title {
-  font-weight: 900;
-  font-size: 20px;
-  margin: 18px 0 0 0;
-  color: #ffffff;
-  font-family: "Montserrat Alternates", sans-serif;
-}
-.notification-message {
-  font-weight: 400;
-  margin: 5px 0 0 0;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #ffffff;
-}
-@media (max-width: 600px) {
-  .notification {
-    top: 0px;
-    left: 0px;
-    width: 100%;
-  }
-  .notification-area {
-    top: 0px;
-    left: 0px;
-    margin: 0;
-    width: 100%;
-    max-height: 100px;
-    position: fixed;
-  }
-}
